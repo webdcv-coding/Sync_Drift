@@ -20,7 +20,10 @@ body {
 }
 
 #canvas {
-	display: block;
+    display: block;
+    width: 100vw;   /* 100% of Viewport Width */
+    height: 100vh;  /* 100% of Viewport Height */
+    object-fit: contain; /* Keeps your aspect ratio perfect */
 }
 
 #canvas:focus {
