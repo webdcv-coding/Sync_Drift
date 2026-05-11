@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1777398429|92294052995';
+const CACHE_VERSION = '1778522088|2277475635';
 /** @type {string} */
 const CACHE_PREFIX = 'Sync-Drift-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
